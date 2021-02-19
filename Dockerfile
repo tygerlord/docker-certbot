@@ -1,6 +1,6 @@
 FROM debian:buster-slim 
 
-RUN mkdir /app
+RUN mkdir -p /app/htdocs
 WORKDIR /app
 
 COPY entrypoint.sh .
